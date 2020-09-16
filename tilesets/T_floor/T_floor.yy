@@ -40,7 +40,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileset0",
+  "name": "T_floor",
   "tags": [],
   "resourceType": "GMTileSet",
 }

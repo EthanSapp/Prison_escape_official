@@ -1,25 +1,24 @@
 /// @description Insert description here
 
-if (keyboard_check(ord("D"))) {
+if (keyboard_check(ord("D")) && !place_meeting(x + 5, y, O_collision)) {
 	x += 5;
 	sprite_index = S_player_right;
 } 
 
-if (keyboard_check(ord("A"))) {
+if (keyboard_check(ord("A")) && !place_meeting(x - 10, y, O_collision)) {
 	x -= 5;
 	sprite_index = S_player_left;
 }
 
-if (keyboard_check(ord("W"))) {
+if (keyboard_check(ord("W")) && !place_meeting(x, y - 5, O_collision)) {
 	y -= 5;
 	sprite_index = S_player_back;
 } 
 
-if (keyboard_check(ord("S"))) {
+if (keyboard_check(ord("S")) && !place_meeting(x , y + 5, O_collision)) {
 	y += 5;
 	sprite_index = S_player_front;
 } 
-
 x = clamp (x , 0, room_width);
 y = clamp(y, 0, room_height);
 
