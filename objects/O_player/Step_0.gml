@@ -1,16 +1,16 @@
-/// @description Insert description here
+
 
 if (keyboard_check(ord("D")) && !place_meeting(x + 5, y, O_collision)) {
 	x += 5;
 	sprite_index = S_player_right;
 } 
 
-if (keyboard_check(ord("A")) && !place_meeting(x - 10, y, O_collision)) {
+if (keyboard_check(ord("A")) && !place_meeting(x - 70, y, O_collision)) {
 	x -= 5;
 	sprite_index = S_player_left;
 }
 
-if (keyboard_check(ord("W")) && !place_meeting(x, y - 5, O_collision)) {
+if (keyboard_check(ord("W")) && !place_meeting(x, y - 70 , O_collision)) {
 	y -= 5;
 	sprite_index = S_player_back;
 } 
@@ -57,3 +57,4 @@ switch (global.dir){
 } else {
   image_index = 0;
 }*/
+
