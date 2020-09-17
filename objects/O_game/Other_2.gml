@@ -1,0 +1,1 @@
+global.playerHP = 50;
