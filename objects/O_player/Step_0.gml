@@ -6,13 +6,13 @@ if (keyboard_check(ord("D")) && !place_meeting(x + 5, y, O_collision)) {
 	global.dir = 0;
 }
 
-if (keyboard_check(ord("A")) && !place_meeting(x - 70, y, O_collision)) {
+if (keyboard_check(ord("A")) && !place_meeting(x - 5, y, O_collision)) {
 	x -= 5;
 	sprite_index = S_player_left;
 	global.dir = 180;
 } 
 
-if (keyboard_check(ord("W")) && !place_meeting(x, y - 70 , O_collision)) {
+if (keyboard_check(ord("W")) && !place_meeting(x, y - 5 , O_collision)) {
 	y -= 5;
 	sprite_index = S_player_back;
 	global.dir = 90
@@ -27,6 +27,6 @@ x = clamp (x , 0, room_width);
 y = clamp(y, 0, room_height);
 
 if (mouse_check_button_pressed(mb_left)){
-	var inst = instance_create_layer(x, y + 35, "bullets_layer", O_bullet);
+	var inst = instance_create_layer(x, y - 35, "bullets_layer", O_bullet);
 	inst.direction = global.dir;
 }
