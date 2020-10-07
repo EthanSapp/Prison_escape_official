@@ -1,3 +1,4 @@
+
 global.playerHP -= 5;
 
 if (global.playerHP <= 0){
