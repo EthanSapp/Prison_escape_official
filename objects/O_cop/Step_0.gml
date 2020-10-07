@@ -13,10 +13,10 @@ if (distance_to_object(O_player) < 200){
 	}
 }
 
-if (direction == 0){
+if (O_player.x < 0){
 	sprite_index = S_cop_right
 	image_speed = 1;
-} else if (direction == 90){
+} else if (O_player.x > 0){
 	sprite_index = S_cop_front;
 	image_speed = 1;
 } else if (direction == 180){
