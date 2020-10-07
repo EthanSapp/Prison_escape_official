@@ -19,10 +19,10 @@ if (O_player.x < 0){
 } else if (O_player.x > 0){
 	sprite_index = S_cop_front;
 	image_speed = 1;
-} else if (direction == 180){
+} else if (O_player.y > 0){
 	sprite_index = S_cop_left;
 	image_speed = 1;
-} else if (direction == 270){
+} else if (O_player.y < 0){
 	sprite_index = S_cop_back;
 	image_speed = 0;
 }
