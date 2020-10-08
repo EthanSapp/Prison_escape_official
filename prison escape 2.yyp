@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"S_cop_attack_left","path":"sprites/S_cop_attack_left/S_cop_attack_left.yy",},"order":5,},
     {"id":{"name":"O_bullet","path":"objects/O_bullet/O_bullet.yy",},"order":3,},
+    {"id":{"name":"F_start","path":"fonts/F_start/F_start.yy",},"order":1,},
     {"id":{"name":"S_floor","path":"sprites/S_floor/S_floor.yy",},"order":0,},
     {"id":{"name":"S_player_right","path":"sprites/S_player_right/S_player_right.yy",},"order":0,},
     {"id":{"name":"S_cell","path":"sprites/S_cell/S_cell.yy",},"order":4,},
@@ -9,15 +11,18 @@
     {"id":{"name":"S_player_back","path":"sprites/S_player_back/S_player_back.yy",},"order":3,},
     {"id":{"name":"S_cop_front","path":"sprites/S_cop_front/S_cop_front.yy",},"order":0,},
     {"id":{"name":"S_cop_back","path":"sprites/S_cop_back/S_cop_back.yy",},"order":1,},
+    {"id":{"name":"S_cop_attack_right","path":"sprites/S_cop_attack_right/S_cop_attack_right.yy",},"order":4,},
     {"id":{"name":"S_cop_right","path":"sprites/S_cop_right/S_cop_right.yy",},"order":2,},
     {"id":{"name":"S_cop_left","path":"sprites/S_cop_left/S_cop_left.yy",},"order":3,},
     {"id":{"name":"S_collision","path":"sprites/S_collision/S_collision.yy",},"order":3,},
+    {"id":{"name":"R_start","path":"rooms/R_start/R_start.yy",},"order":2,},
     {"id":{"name":"O_collision","path":"objects/O_collision/O_collision.yy",},"order":2,},
     {"id":{"name":"T_cell","path":"tilesets/T_cell/T_cell.yy",},"order":1,},
     {"id":{"name":"T_floor","path":"tilesets/T_floor/T_floor.yy",},"order":0,},
     {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":4,},
     {"id":{"name":"S_bullet","path":"sprites/S_bullet/S_bullet.yy",},"order":5,},
     {"id":{"name":"F_game","path":"fonts/F_game/F_game.yy",},"order":0,},
+    {"id":{"name":"R_death","path":"rooms/R_death/R_death.yy",},"order":1,},
     {"id":{"name":"O_game","path":"objects/O_game/O_game.yy",},"order":0,},
     {"id":{"name":"O_cop","path":"objects/O_cop/O_cop.yy",},"order":1,},
     {"id":{"name":"R_game","path":"rooms/R_game/R_game.yy",},"order":0,},
@@ -36,7 +41,9 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"R_start","path":"rooms/R_start/R_start.yy",},
     {"name":"R_game","path":"rooms/R_game/R_game.yy",},
+    {"name":"R_death","path":"rooms/R_death/R_death.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

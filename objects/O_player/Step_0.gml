@@ -27,6 +27,13 @@ if (keyboard_check(ord("S")) && !place_meeting(x , y + 5, O_collision)) {
 	image_speed = 1;
 	global.dir = 270;
 } 
+
+
+if (global.playerHP <= 0){
+	instance_destroy();
+	room_goto(R_death);
+}
+
 x = clamp (x , 0, room_width);
 y = clamp(y, 0, room_height);
 

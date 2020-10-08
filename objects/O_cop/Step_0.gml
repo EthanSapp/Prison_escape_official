@@ -13,6 +13,20 @@ if (distance_to_object(O_player) < 200){
 	}
 }
 
+if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
+	if (instance_exists(O_player)){
+		move_towards_point(O_player.x,O_player.y, starting_spd);
+		attackCounter += 0.5; 
+		if (attackCounter == (room_speed*attackDelay)){
+			global.playerHP -= 5;
+			attackCounter = 0;
+		}
+	} else {
+		attackCounter = 0;
+	}
+}
+
+
 if (O_player.x < 0){
 	sprite_index = S_cop_right
 	image_speed = 1;
