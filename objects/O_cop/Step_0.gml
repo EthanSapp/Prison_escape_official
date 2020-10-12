@@ -20,6 +20,7 @@ if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
 		if (attackCounter == (room_speed*attackDelay)){
 			global.playerHP -= 5;
 			attackCounter = 0;
+			
 		}
 	} else {
 		attackCounter = 0;
@@ -27,10 +28,10 @@ if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
 }
 
 
-if (O_player.x < 0){
+if (O_player.x > O_cop.x){
 	sprite_index = S_cop_right
 	image_speed = 1;
-} else if (O_player.x > 0){
+} else if (O_player.x > O_cop.x){
 	sprite_index = S_cop_front;
 	image_speed = 1;
 } else if (O_player.y > 0){
