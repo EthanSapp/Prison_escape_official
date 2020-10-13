@@ -27,13 +27,22 @@ if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
 		if (attackCounter == (room_speed*attackDelay)){
 			global.playerHP -= global.rand_hit;
 			attackCounter = 0;
-			attack = true
+			global.cop_attack = true
 		}
 	} else {
 		attackCounter = 0;
-		attack = false;
+		global.cop_attack = false;
 	}
 }
+
+/*if (instance_exists(O_player) && (global.attack = true)){
+	draw_set_color(c_red);
+	draw_set_font(F_game);
+	draw_text(O_player.x, O_player.y - 45, "HIT!");
+} else {
+	instance_destroy();
+}*/
+
 
 
 if (O_player.x > O_cop.x){

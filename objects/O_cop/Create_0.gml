@@ -16,4 +16,4 @@ attackCounter = 0;
 
 attackDelay = 0.15;
 
-globalvar attack;
+global.cop_attack = false;
