@@ -15,3 +15,5 @@ hp = 3;
 attackCounter = 0;
 
 attackDelay = 0.15;
+
+globalvar attack;

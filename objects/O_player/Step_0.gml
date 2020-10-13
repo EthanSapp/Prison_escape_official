@@ -1,27 +1,27 @@
 image_speed = 0;
 
-if (keyboard_check(ord("D")) && !place_meeting(x + 5, y, O_collision)) {
+if (keyboard_check(ord("D")) && !place_meeting(x + 45, y +- 20, O_collision)) {
 	x += 5;
 	sprite_index = S_player_right;
 	image_speed = 1;
 	global.dir = 0;
 }
 
-if (keyboard_check(ord("A")) && !place_meeting(x - 5, y, O_collision)) {
+if (keyboard_check(ord("A")) && !place_meeting(x - 45, y +- 20, O_collision)) {
 	x -= 5;
 	sprite_index = S_player_left;
 	image_speed = 1;
 	global.dir = 180;
 } 
 
-if (keyboard_check(ord("W")) && !place_meeting(x, y - 5 , O_collision)) {
+if (keyboard_check(ord("W")) && !place_meeting(x +- 45, y - 20, O_collision)) {
 	y -= 5;
 	sprite_index = S_player_back;
 	image_speed = 1;
 	global.dir = 90
 } 
 
-if (keyboard_check(ord("S")) && !place_meeting(x , y + 5, O_collision)) {
+if (keyboard_check(ord("S")) && !place_meeting(x +- 45, y + 20, O_collision)) {
 	y += 5;
 	sprite_index = S_player_front;
 	image_speed = 1;

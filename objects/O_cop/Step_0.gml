@@ -1,6 +1,13 @@
 image_speed = 0;
 
 
+global.rand_hit = irandom_range(3,8);
+if (global.rand_hit > global.playerHP){
+	instance_destroy();
+	room_goto(R_death);
+}
+
+
 if (distance_to_object(O_player) > 200){
 	if (instance_exists(O_player)){
 		move_towards_point(O_player.x,O_player.y, starting_spd);
@@ -18,12 +25,13 @@ if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
 		move_towards_point(O_player.x,O_player.y, starting_spd);
 		attackCounter += 0.5; 
 		if (attackCounter == (room_speed*attackDelay)){
-			global.playerHP -= 5;
+			global.playerHP -= global.rand_hit;
 			attackCounter = 0;
-			
+			attack = true
 		}
 	} else {
 		attackCounter = 0;
+		attack = false;
 	}
 }
 

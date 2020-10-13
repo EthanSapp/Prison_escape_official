@@ -3,3 +3,4 @@
 image_angle = direction;
 global.dir = 270;
 
+text_delay = 0.25;

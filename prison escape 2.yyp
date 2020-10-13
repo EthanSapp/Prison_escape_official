@@ -8,6 +8,7 @@
     {"id":{"name":"S_cell","path":"sprites/S_cell/S_cell.yy",},"order":4,},
     {"id":{"name":"S_player_left","path":"sprites/S_player_left/S_player_left.yy",},"order":1,},
     {"id":{"name":"S_player_front","path":"sprites/S_player_front/S_player_front.yy",},"order":2,},
+    {"id":{"name":"O_text_box","path":"objects/O_text_box/O_text_box.yy",},"order":5,},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"order":14,},
     {"id":{"name":"S_player_back","path":"sprites/S_player_back/S_player_back.yy",},"order":3,},
     {"id":{"name":"S_cop_front","path":"sprites/S_cop_front/S_cop_front.yy",},"order":0,},
