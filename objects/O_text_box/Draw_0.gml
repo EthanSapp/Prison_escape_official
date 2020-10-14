@@ -1,4 +1,4 @@
-if ( global.cop_attack = true){
+if (global.cop_attack = true){
 	_x = O_player.x;
 	_y = O_player.y - 45;
 	draw_set_color(c_red);
