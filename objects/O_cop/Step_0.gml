@@ -1,6 +1,9 @@
 image_speed = 0;
 
 
+
+global.cop_attack = false;
+
 global.rand_hit = irandom_range(3,8);
 if (global.rand_hit > global.playerHP){
 	instance_destroy();
@@ -34,16 +37,6 @@ if (distance_to_object(O_player) <= 15 && global.playerHP >= 0) {
 		global.cop_attack = false;
 	}
 }
-
-/*if (instance_exists(O_player) && (global.attack = true)){
-	draw_set_color(c_red);
-	draw_set_font(F_game);
-	draw_text(O_player.x, O_player.y - 45, "HIT!");
-} else {
-	instance_destroy();
-}*/
-
-
 
 if (O_player.x > O_cop.x){
 	sprite_index = S_cop_right

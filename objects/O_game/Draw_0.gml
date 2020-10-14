@@ -15,3 +15,7 @@ case R_start:
 	draw_text(300, 150, "Prison Escape");
 	break;
 }
+
+if (paused){
+	draw_text(cx + 450, cy + 300, "PAUSED");
+}

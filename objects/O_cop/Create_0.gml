@@ -17,3 +17,4 @@ attackCounter = 0;
 attackDelay = 0.15;
 
 global.cop_attack = false;
+
