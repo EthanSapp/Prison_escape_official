@@ -4,4 +4,3 @@ global.paused = false;
 
 instance_activate_all();
 
-

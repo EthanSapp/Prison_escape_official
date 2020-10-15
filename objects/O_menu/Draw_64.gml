@@ -1,4 +1,4 @@
-if (!global.paused) exit;
+if (!global.paused = true) exit;
 if(global.paused = true){
 	var c = c_black;
 	var gwidth =  global.view_width, gheight =  global.view_height;
@@ -8,11 +8,11 @@ if(global.paused = true){
 
 
 
-	draw_rectangle_color( 0, 0, cx + gwidth, cy + gheight, c, c, c, c, false);
+	draw_rectangle_color( 0, 0, gwidth * 2, gheight * 2, c, c, c, c, false);
 
 
-	draw_set_valign(fa_middle);
-	draw_set_halign(fa_right);
+	//draw_set_valign(fa_middle);
+	//draw_set_halign(fa_right);
 
 	var ltx = start_x - x_buffer, lty, xoffset; 
 	var yy = 0
@@ -22,11 +22,11 @@ if(global.paused = true){
 		draw_set_font(F_hit);
 	
 		c = c_red;
-		xoffset = 0;
+		xoffset = -100;
 	
 		if ( yy == menu_option[page]){
 			c = c_white;
-			xoffset = -(x_buffer * 1.5);
+			xoffset = -100;
 		}
 	
 		draw_text_color(ltx + xoffset, lty, ds_grid[# 0, yy], c, c, c, c, 1);

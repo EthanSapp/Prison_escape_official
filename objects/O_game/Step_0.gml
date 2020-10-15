@@ -31,7 +31,10 @@ if (room == R_game){
 	}
 	
 	if (global.paused == false) {
-		instance_activate_all()
+		instance_activate_object(O_cop);
+		instance_activate_object(O_player);
+		instance_activate_object(O_game);
+		instance_activate_object(O_bullet);
 	}
 }
 

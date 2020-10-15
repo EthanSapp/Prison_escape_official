@@ -1,4 +1,4 @@
-if (!global.paused) exit;
+if (global.paused = false) exit;
 if (global.paused = true){
 	input_up_p = keyboard_check_pressed(global.key_up);
 	input_down_p = keyboard_check_pressed(global.key_down);
