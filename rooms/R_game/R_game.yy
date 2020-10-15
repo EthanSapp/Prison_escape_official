@@ -24,6 +24,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"O_player","path":"objects/O_player/O_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5E271DA9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"O_text_box","path":"objects/O_text_box/O_text_box.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,"resourceVersion":"1.0","name":"inst_358C5B57","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"O_menu","path":"objects/O_menu/O_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":32.0,"resourceVersion":"1.0","name":"inst_47B6BA3F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"T_cell","path":"tilesets/T_cell/T_cell.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":32,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -80,6 +81,7 @@
     {"name":"inst_57D0ACD6","path":"rooms/R_game/R_game.yy",},
     {"name":"inst_5E271DA9","path":"rooms/R_game/R_game.yy",},
     {"name":"inst_358C5B57","path":"rooms/R_game/R_game.yy",},
+    {"name":"inst_47B6BA3F","path":"rooms/R_game/R_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

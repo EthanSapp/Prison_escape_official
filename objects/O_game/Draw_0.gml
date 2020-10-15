@@ -16,6 +16,3 @@ case R_start:
 	break;
 }
 
-if (paused){
-	draw_text(cx + 450, cy + 300, "PAUSED");
-}
