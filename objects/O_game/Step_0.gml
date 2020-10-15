@@ -1,3 +1,5 @@
+global.paused = false;
+
 if (room == R_start && keyboard_check_pressed(vk_enter)){
 	room_goto(R_game);
 } else if (room == R_start && keyboard_check_pressed(vk_escape)){
@@ -10,12 +12,30 @@ if (room == R_game && keyboard_check_pressed(vk_escape)){
 
 if (room = R_death && keyboard_check_pressed(vk_enter)){
 	room_goto(R_start);
+	game_restart();
 } else if (room = R_death && keyboard_check_pressed(vk_escape)){
 	game_end();
 }
 
-
 if (room == R_game){
+	if (keyboard_check_pressed(vk_tab)){
+		global.paused = true;
+		if (global.paused == true){
+			instance_deactivate_object(O_cop);
+			instance_deactivate_object(O_player);
+			instance_deactivate_object(O_game);
+			instance_deactivate_object(O_bullet);
+		}
+	} else {
+		global.paused = false;
+	}
+	
+	if (global.paused == false) {
+		instance_activate_all()
+	}
+}
+
+/*if (room == R_game){
 	if (keyboard_check_pressed(vk_space)){
 		global.paused = !global.paused;
 		if(!sprite_exists(screen_shot)){
@@ -31,4 +51,4 @@ if (room == R_game){
 		}
 		instance_activate_all();
 	}
-}
+}*/

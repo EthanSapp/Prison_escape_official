@@ -1,3 +1,5 @@
 global.paused = false;
 
-screen_shot = -1;
+globalvar cx;
+
+globalvar cy;
