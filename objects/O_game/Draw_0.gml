@@ -16,3 +16,4 @@ case R_start:
 	break;
 }
 
+draw_set_alpha(1);

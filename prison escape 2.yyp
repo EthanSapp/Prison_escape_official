@@ -29,6 +29,7 @@
     {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":4,},
     {"id":{"name":"S_bullet","path":"sprites/S_bullet/S_bullet.yy",},"order":5,},
     {"id":{"name":"F_game","path":"fonts/F_game/F_game.yy",},"order":0,},
+    {"id":{"name":"O_mini_map","path":"objects/O_mini_map/O_mini_map.yy",},"order":7,},
     {"id":{"name":"R_death","path":"rooms/R_death/R_death.yy",},"order":1,},
     {"id":{"name":"O_game","path":"objects/O_game/O_game.yy",},"order":0,},
     {"id":{"name":"O_cop","path":"objects/O_cop/O_cop.yy",},"order":1,},
