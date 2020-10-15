@@ -1,7 +1,8 @@
-if (global.cop_attack = true){
-	_x = O_player.x;
-	_y = O_player.y - 45;
-	draw_set_color(c_red);
-	draw_set_font(F_hit);
-	draw_text(_x, _y, text);;
+text = "HP -" + string(global.rand_hit);
+
+draw_set_font(F_hit);
+draw_set_color(c_red);
+
+if (global.cop_attack == true){
+	draw_text(O_player.x, O_player.y - 40, text);
 }

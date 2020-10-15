@@ -47,7 +47,7 @@ if (O_player.x > O_cop.x){
 } else if (O_player.y > 0){
 	sprite_index = S_cop_left;
 	image_speed = 1;
-} else if (O_player.y < 0){
+} else if (O_player.y > 0){
 	sprite_index = S_cop_back;
 	image_speed = 0;
 }

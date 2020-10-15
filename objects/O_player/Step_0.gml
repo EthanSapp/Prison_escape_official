@@ -38,6 +38,6 @@ x = clamp (x , 0, room_width);
 y = clamp(y, 0, room_height);
 
 if (mouse_check_button_pressed(mb_left)){
-	var inst = instance_create_layer(x, y - 35, "bullets_layer", O_bullet);
+	var inst = instance_create_layer(x, y,  "bullets_layer", O_bullet);
 	inst.direction = global.dir;
 }
