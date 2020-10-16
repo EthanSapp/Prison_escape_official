@@ -2,7 +2,7 @@ cx = camera_get_view_x(view_camera[0]);
 cy = camera_get_view_y(view_camera[0]);
 
 switch(room){
-case R_game:
+case R_cells:
 	draw_set_color(c_red);
 	draw_set_font(F_game);
 	draw_text(cx + 8, cy + 12, "HP: " + string(global.playerHP));

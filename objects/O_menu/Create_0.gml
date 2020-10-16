@@ -7,8 +7,8 @@ global.key_revert = ord("x");
 global.key_enter = vk_enter;
 global.key_left = vk_left;
 global.key_right = vk_right;
-global.key_up = ord("W");
-global.key_down = ord("S");
+global.key_up =  vk_up;
+global.key_down =  vk_down;
 
 display_set_gui_size(global.view_width, global.view_height);
 

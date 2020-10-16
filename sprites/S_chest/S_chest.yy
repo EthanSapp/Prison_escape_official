@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 32,
-  "bbox_right": 95,
+  "bbox_left": 0,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
+  "width": 128,
   "height": 64,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"046e3b0e-100a-40f7-8512-2d0f99b49321","path":"sprites/S_collision/S_collision.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"046e3b0e-100a-40f7-8512-2d0f99b49321","path":"sprites/S_collision/S_collision.yy",},"LayerId":{"name":"4d678882-34ec-4b19-84fb-ffa8b98e1909","path":"sprites/S_collision/S_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"S_collision","path":"sprites/S_collision/S_collision.yy",},"resourceVersion":"1.0","name":"046e3b0e-100a-40f7-8512-2d0f99b49321","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"517116ed-424a-41d9-a95a-ae10eff7cd62","path":"sprites/S_chest/S_chest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"517116ed-424a-41d9-a95a-ae10eff7cd62","path":"sprites/S_chest/S_chest.yy",},"LayerId":{"name":"7061efb8-c695-4395-9c1d-6c363ea3d25f","path":"sprites/S_chest/S_chest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"S_chest","path":"sprites/S_chest/S_chest.yy",},"resourceVersion":"1.0","name":"517116ed-424a-41d9-a95a-ae10eff7cd62","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"S_collision","path":"sprites/S_collision/S_collision.yy",},
+    "spriteId": {"name":"S_chest","path":"sprites/S_chest/S_chest.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cc9eeae0-1114-44a4-8ceb-02e9e5c603be","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"046e3b0e-100a-40f7-8512-2d0f99b49321","path":"sprites/S_collision/S_collision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c3160ad4-7a90-4a6d-ae90-34d818363c73","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"517116ed-424a-41d9-a95a-ae10eff7cd62","path":"sprites/S_chest/S_chest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"S_collision","path":"sprites/S_collision/S_collision.yy",},
+    "parent": {"name":"S_chest","path":"sprites/S_chest/S_chest.yy",},
     "resourceVersion": "1.3",
-    "name": "S_collision",
+    "name": "S_chest",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4d678882-34ec-4b19-84fb-ffa8b98e1909","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7061efb8-c695-4395-9c1d-6c363ea3d25f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "S_collision",
+  "name": "S_chest",
   "tags": [],
   "resourceType": "GMSprite",
 }

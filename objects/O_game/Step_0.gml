@@ -1,12 +1,12 @@
 global.paused = false;
 
 if (room == R_start && keyboard_check_pressed(vk_enter)){
-	room_goto(R_game);
+	room_goto(R_cells);
 } else if (room == R_start && keyboard_check_pressed(vk_escape)){
 	game_end();
 }
 
-if (room == R_game && keyboard_check_pressed(vk_escape)){
+if (room == R_cells && keyboard_check_pressed(vk_escape)){
 	game_end();
 }
 
@@ -17,7 +17,7 @@ if (room = R_death && keyboard_check_pressed(vk_enter)){
 	game_end();
 }
 
-if (room == R_game){
+if (room == R_cells){
 	if (keyboard_check_pressed(vk_tab)){
 		global.paused = true;
 		if (global.paused == true){
